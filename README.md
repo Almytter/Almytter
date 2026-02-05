@@ -21,7 +21,6 @@
          display: flex;
          justify-content: center;
          align-items: center;
-         min-height: 100vh;
         }
         
         .glass-card {
@@ -35,6 +34,7 @@
            text-align: center;
            color: #1a1a1a; /* Deeper black */
            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+           align-items: center;
         }
         
         .profile-img {
@@ -48,7 +48,7 @@
         h1 {
             font-family: 'Georgia', serif;
             margin: 10px 0 5px;
-            font-size: 1.8rem; /* Increased size so it's a real header */
+            font-size: 1.2rem; /* Increased size so it's a real header */
             font-weight: bold;
         }
         
