@@ -30,7 +30,7 @@
            border: 1px solid rgba(255, 255, 255, 0.4);
            border-radius: 20px;
            padding: 40px 20px;
-           width: 100%;
+           width: 100vw;
            max-width: 400px;
            text-align: center;
            color: #1a1a1a; /* Deeper black */
