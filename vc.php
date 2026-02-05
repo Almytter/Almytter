@@ -1,11 +1,13 @@
 <?php
 require "phpqrcode/qrlib.php";
-$y = "qrcode";
+
+// Get your computer's IP via 'ipconfig' in cmd
+// Example: http://192.168.1.5/vc.html
+$y = "https://almytter.github.io/Almytter/"; 
 
 // 1. Tell the browser to expect an image
 header('Content-Type: image/png');
 
-// 2. Pass 'false' as the second argument to stream it to the screen
-// instead of saving it to a file.
-QRcode::png($y, false, "m", 4, 3);
+// 2. Generate the QR code using the URL variable
+QRcode::png($y, false, "m", 6, 3); 
 ?>
