@@ -12,8 +12,7 @@
          padding: 0;
          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* This adds a white tint over your image to make it faint */
-         background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), 
-                url('PORTFOLIO PHOTO 2.jpg');
+         background: url('PORTFOLIO PHOTO 2.jpg');
          background-repeat: no-repeat;
          background-position: center center;
          background-attachment: fixed;
