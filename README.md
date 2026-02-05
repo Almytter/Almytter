@@ -23,7 +23,7 @@
         }
         
         .glass-card {
-           background: rgba(255, 255, 255, 0.3); /* Increased from 0.15 to 0.6 for better legibility */
+           background: rgba(255, 255, 255, 0.5); /* Increased from 0.15 to 0.6 for better legibility */
            backdrop-filter: blur(15px);
            border: 1px solid rgba(255, 255, 255, 0.4);
            border-radius: 20px;
