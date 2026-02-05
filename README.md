@@ -12,7 +12,7 @@
             padding: 0;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background-image: url('PORTFOLIO PHOTO 2.jpg');
-            opacity: 0.5;
+            opacity: 0.8;
             background-repeat: no-repeat;
             background-position: center center;
             background-attachment: fixed;
