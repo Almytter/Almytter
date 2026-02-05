@@ -72,7 +72,7 @@
         
         .link-btn:hover {
             transform: scale(1.05);
-            background: #fff;
+            background: #fff8ee;
         }
         
         .link-btn i {
