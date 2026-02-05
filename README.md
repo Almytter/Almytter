@@ -22,7 +22,7 @@
         }
         
         .glass-card {
-           background-color: #fff8ee; 
+           background-color: #e6b372; 
            backdrop-filter: blur(15px);
            border: 1px solid rgba(255, 255, 255, 0.4);
            border-radius: 20px;
