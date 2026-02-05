@@ -11,7 +11,10 @@
             margin: 0;
             padding: 0;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: url('PORTFOLIO PHOTO 2.jpg') no-repeat center center fixed;
+            background-image: url('PORTFOLIO PHOTO 2.jpg');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
             background-size: cover;
             display: flex;
             justify-content: center;
@@ -45,6 +48,7 @@
             font-family: 'Georgia', serif;
             margin: 10px 0 5px;
             font-size: 2rem;
+            text-align: center;
         }
         
         p {
