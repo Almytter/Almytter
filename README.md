@@ -11,7 +11,6 @@
          margin: 0;
          padding: 0;
          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* This adds a white tint over your image to make it faint */
          background: url('PORTFOLIO PHOTO 2.jpg');
          background-repeat: no-repeat;
          background-position: center center;
@@ -23,7 +22,8 @@
         }
         
         .glass-card {
-           background: rgba(255, 255, 255, 0.6); /* Increased from 0.15 to 0.6 for better legibility */
+           background: rgba(255, 255, 255, 0.6); 
+           background-color: #fff8ee;
            backdrop-filter: blur(15px);
            border: 1px solid rgba(255, 255, 255, 0.4);
            border-radius: 20px;
