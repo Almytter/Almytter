@@ -34,6 +34,7 @@
             text-align: center;
             color: black;
             box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            justify-content: center;
         }
         
         .profile-img {
@@ -47,7 +48,7 @@
         h1 {
             font-family: 'Georgia', serif;
             margin: 10px 0 5px;
-            font-size: 2rem;
+            font-size: 1rem;
             text-align: center;
         }
         
@@ -79,6 +80,7 @@
         .link-btn i {
             margin-right: 15px;
             font-size: 1.2rem;
+            
         }
         /* Brand Colors for Icons */
         
@@ -105,9 +107,9 @@
         <img src="https://via.placeholder.com/150" alt="Krejit Roy" class="profile-img">
 
         <h1>Krejit Ghosh</h1>
-        <p>Founder of Almytter</p>
+        <p>Founder</p>
 
-        <a href="https://almytter.com" class="link-btn"><i class="fas fa-globe"></i> ALMYTTER WEBSITE</a>
+        <a href="https://almytter.com" class="link-btn"><i class="fas fa-globe"></i>WEBSITE</a>
     <a href="https://wa.me/+918780456793" class="link-btn"><i class="fab fa-whatsapp"></i> WHATSAPP</a>
     <a href="https://www.facebook.com/profile.php?id=61586743264671" class="link-btn"><i class="fab fa-facebook"></i> FACEBOOK</a>
     <a href="https://www.instagram.com/almytterluxetravels/" class="link-btn"><i class="fab fa-instagram"></i> INSTAGRAM</a>
