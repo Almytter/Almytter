@@ -11,7 +11,7 @@
             margin: 0;
             padding: 0;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: ('PORTFOLIO PHOTO 2.jpg') no-repeat center center fixed;
+            background-image: ('PORTFOLIO PHOTO 2.jpg') no-repeat center center fixed;
             background-size: cover;
             display: flex;
             justify-content: center;
