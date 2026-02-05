@@ -8,32 +8,33 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         body {
-            margin: 0;
-            padding: 0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-image: url('PORTFOLIO PHOTO 2.jpg');
-            background-repeat: no-repeat;
-            background-position: center center;
-            background-attachment: fixed;
-            background-size: cover;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
+         margin: 0;
+         padding: 0;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* This adds a white tint over your image to make it faint */
+         background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), 
+                url('PORTFOLIO PHOTO 2.jpg');
+         background-repeat: no-repeat;
+         background-position: center center;
+         background-attachment: fixed;
+         background-size: cover;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         min-height: 100vh;
         }
         
         .glass-card {
-            background: rgba(255, 255, 255, 0.15);
-            backdrop-filter: blur(15px);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            border-radius: 20px;
-            padding: 40px 20px;
-            width: 90%;
-            max-width: 400px;
-            text-align: center;
-            color: black;
-            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-            justify-content: center;
+           background: rgba(255, 255, 255, 0.6); /* Increased from 0.15 to 0.6 for better legibility */
+           backdrop-filter: blur(15px);
+           border: 1px solid rgba(255, 255, 255, 0.4);
+           border-radius: 20px;
+           padding: 40px 20px;
+           width: 90%;
+           max-width: 400px;
+           text-align: center;
+           color: #1a1a1a; /* Deeper black */
+           box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
         }
         
         .profile-img {
@@ -47,8 +48,8 @@
         h1 {
             font-family: 'Georgia', serif;
             margin: 10px 0 5px;
-            font-size: 1rem;
-            text-align: center;
+            font-size: 1.8rem; /* Increased size so it's a real header */
+            font-weight: bold;
         }
         
         p {
