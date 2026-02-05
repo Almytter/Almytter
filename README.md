@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -97,7 +97,7 @@
 </head>
 
 <body>
-    <i <div class="glass-card">
+     <div class="glass-card">
         <img src="https://via.placeholder.com/150" alt="Krejit Roy" class="profile-img">
 
         <h1>Krejit Ghosh</h1>
@@ -111,6 +111,4 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 
 
-</body>
 
-</html>
