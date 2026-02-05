@@ -32,7 +32,7 @@
             width: 90%;
             max-width: 400px;
             text-align: center;
-            color: white;
+            color: black;
             box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
         }
         
